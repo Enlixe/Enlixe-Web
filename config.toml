@@ -1,4 +1,4 @@
-baseURL = "https://enlixe.netlify.app/"
+baseURL = "Enlixe.github.io"
 languageCode = "en-us"
 title = "Enlixe Web"
 theme = "paper"
