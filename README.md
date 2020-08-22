@@ -1,5 +1,4 @@
-# Enlixe-Web
-# Paper <sup><sup><sub>v4.9 (Dark Mode)</sub></sup></sup>
+# Enlixe-Web <sup><sup><sub>v4.9 (Dark Mode)</sub></sup></sup>
 
 A simple, clean, flexible.
 
