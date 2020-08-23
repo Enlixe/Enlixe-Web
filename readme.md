@@ -1,4 +1,4 @@
-# Enlixe-Web <sup><sup><sub>v0.0.2-Alpha (Dark Mode)</sub></sup></sup>
+# Enlixe-Web <sup><sup><sub>v0.0.3-Alpha (Dark Mode)</sub></sup></sup>
 
 A simple, clean, flexible.
 

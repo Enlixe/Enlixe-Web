@@ -1,9 +1,9 @@
 ---
-title: "First Post"
+title: "Welcome To Enlixe Web"
 date: 2020-08-21T17:54:47+07:00
 draft: false
-tags: ["First", "GitHub", "website"]
+tags: ["Welcome", "Website"]
 #categories: ["First", "GitHub"]
 ---
 
-This is a first post and testing for hugo !
+Welcome to enlixe web the web is on development ! See on patch note for the update
