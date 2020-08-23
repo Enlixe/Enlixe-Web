@@ -84,22 +84,13 @@
       <nav class="nav">
         {{- if .IsHome }}
         <h1 class="logo"><a href="{{ "" | absURL }}">{{ .Site.Title }}</a></h1>
+        <p class="menu"><a href="/posts/">Posts</a></p>
+        <p class="menu"><a href="/patch/">Patch</a></p>
         {{- else }}
         <p class="logo"><a href="{{ "" | absURL }}">{{ .Site.Title }}</a></p>
+        <p class="menu"><a href="/posts/">Posts</a></p>
+        <p class="menu"><a href="/patch/">Patch</a></p>
         {{- end }}
-        {{- if .Site.Menus.main }}
-        <ul class="menu">
-          {{- range .Site.Menus.main }}
-          <li>
-            <a href="{{ .URL }}">{{ .Name }}</a>
-          </li>
-          {{- end }}
-        </ul>
-        {{- end }}
-      </nav>
-      <nav class="nav">
-        <p class="logo"><a href="/posts/">Posts</a></p>
-        <p class="logo"><a href="/patch/">Patch</a></p>
         {{- if .Site.Menus.main }}
         <ul class="menu">
           {{- range .Site.Menus.main }}
