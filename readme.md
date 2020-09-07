@@ -1,4 +1,4 @@
-# Enlixe-Web <sup><sup><sub>v0.0.3-Alpha (Dark Mode)</sub></sup></sup>
+# Enlixe-Web <sup><sup><sub>v0.0.3.5-Alpha (Dark Mode)</sub></sup></sup>
 
 A simple, clean, flexible.
 
@@ -8,7 +8,7 @@ A simple, clean, flexible.
 
 ## Overview
 
-Demo: https://enlixe.netlify.app/
+Demo: https://enlixe-web.onrender.com/
 
 <!--<p>
 <kbd>
