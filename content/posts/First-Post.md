@@ -7,3 +7,5 @@ tags: ["Welcome", "Website"]
 ---
 
 Welcome to enlixe web the web is on development ! See on patch note for the update
+
+<!--adsense-->

@@ -2,3 +2,7 @@ baseURL = "https://enlixe-web.onrender.com/"
 languageCode = "en-us"
 title = "Enlixe Web"
 theme = "paper"
+
+[params.adsense]
+client = "ca-pub-2268478996120471"
+inArticleSlot = "1248570749"
