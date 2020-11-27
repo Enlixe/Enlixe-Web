@@ -1,8 +1,70 @@
-baseURL = "https://enlixe-web.onrender.com/"
-languageCode = "en-us"
-title = "Enlixe Web"
-theme = "paper"
+baseURL: "https://enlixe-web.onrender.com/"
+title: Enlixe Web
+paginate: 5
+theme: hugo-PaperMod
 
-[params.adsense]
-client = "ca-pub-2268478996120471"
-inArticleSlot = "1248570749"
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+googleAnalytics: UA-123-45
+
+minify:
+    disableXML: true
+    minifyOutput: true
+
+params:
+    env: production # to enable google analytics, opengraph, twitter-cards and schema.
+    title: Enlixe Web
+    description: "Web maked by enlixe"
+    author: Enlixe
+    # author: ["Enlixe", "You"] # multiple authors
+
+    images: "<link or path of image for opengraph, twitter-cards>"
+
+    ShowReadingTime: true
+    ShowShareButtons: true
+    comments: false
+    defaultTheme: auto
+    disableThemeToggle: false
+    disableSpecial1stPost: false
+
+    assets:
+        favicon: "<link / abs url>"
+        favicon16x16: "<link / abs url>"
+        favicon32x32: "<link / abs url>"
+        apple_touch_icon: "<link / abs url>"
+        safari_pinned_tab: "<link / abs url>"
+
+    label:
+        text: "Home"
+        icon: /apple-touch-icon.png
+        iconHeight: 35
+
+    # profile-mode
+    profileMode:
+        enabled: false # needs to be explicitly set
+        title: Enlixe Web | Profile
+        # imageUrl: '<img location>'
+        # imageTitle: my image
+        buttons:
+            - name: Posts
+              url: posts
+            - name: Tags
+              url: tags
+
+    # home-info mode
+    homeInfoParams:
+        Title: "Hi there \U0001F44B"
+        Content: Welcome to my blog
+
+    socialIcons:
+        - name: twitter
+          url: "https://twitter.com/EnlixeId/"
+        - name: github
+          url: "https://github.com/Enlixe/"
+
+    analytics:
+        google:
+            SiteVerificationTag: "XYZabc"
