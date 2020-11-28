@@ -1,9 +1,9 @@
 ---
-title: "Web V0.0.2-Alpha"
-date: 2020-08-22T11:42:38+07:00
+title: "Bot V0.0.7-Alpha"
+date: 2020-11-25T17:00:00+07:00
 # weight: 1
-# aliases: ["/discord"]
-tags: ["Web", "Patch", "Note"]
+aliases: ["/discord"]
+tags: ["Bot", "Patch"]
 author: "Enlixe"
 # author: ["Me", "You"] # multiple authors
 # toc = table of content
@@ -20,7 +20,4 @@ cover:
 comments: false
 ---
 
-What i update ?
-I add :
- - Added to GIT and Github ( https://github.com/Enlixe )
- - Add patch note to see what i workking on :)
+Added music

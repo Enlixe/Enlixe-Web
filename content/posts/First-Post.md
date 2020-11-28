@@ -1,9 +1,23 @@
 ---
 title: "Welcome To Enlixe Web"
 date: 2020-08-21T17:54:47+07:00
-draft: false
+weight: 1
+#aliases: ["/discord"]
 tags: ["Welcome", "Website"]
-#categories: ["First", "GitHub"]
+author: "Enlixe"
+# author: ["Me", "You"] # multiple authors
+# toc = table of content
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+disableShare: false
+cover:
+    image: "<image path/url>"
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false
+comments: false
 ---
 
 Welcome to enlixe web the web is on development ! See on patch note for the update

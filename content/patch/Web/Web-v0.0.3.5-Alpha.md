@@ -1,8 +1,23 @@
 ---
 title: "Web V0.0.3.5-Alpha"
 date: 2020-09-05T04:45:20+07:00
-draft: false
+# weight: 1
+# aliases: ["/discord"]
 tags: ["Web", "Patch", "Note"]
+author: "Enlixe"
+# author: ["Me", "You"] # multiple authors
+# toc = table of content
+showToc: false
+TocOpen: false
+draft: false
+hidemeta: false
+disableShare: false
+cover:
+    image: "<image path/url>"
+    alt: "<alt text>"
+    caption: "<text>"
+    relative: false
+comments: false
 ---
 
 This is just small update 🙂.  

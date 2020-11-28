@@ -1,16 +1,59 @@
 baseURL = "https://enlixe-web.onrender.com/"
 title = "Enlixe Web"
-paginate = 5
+paginate = 8
 theme = "hugo-PaperMod"
+enableInlineShortcodes = true
 enableRobotsTXT = true
-buildDrafts = false
-buildFuture = false
-buildExpired = false
-googleAnalytics = "UA-123-45"
+
+# buildDrafts = false
+# buildFuture = false
+# buildExpired = false
+
+# googleAnalytics = "UA-123-45"
 
 [minify]
 disableXML = true
 minifyOutput = true
+
+
+[languages.en]
+languageName = "Home"
+weight = 1
+
+  [[languages.en.menu.main]]
+  name = "Archives"
+  url = "/archives/"
+  weight = 5
+
+  [[languages.en.menu.main]]
+  name = "Tags"
+  url = "/tags/"
+  weight = 10
+
+  [[languages.en.menu.main]]
+  name = "Post"
+  url = "/posts/"
+  weight = 15
+
+  [[languages.en.menu.main]]
+  name = "Patch"
+  url = "/patch/"
+  weight = 20
+
+[languages.bot]
+languageName = "bot"
+weight = 2
+title = "Enlixe Web"
+
+  [languages.bot.profileMode]
+  enabled = true
+  title = "Hype Bot"
+  subtitle = "☄️ Fast | ☁️ Fluent | 🌙 Smooth | 📱 Responsive"
+
+    [[languages.bot.profileMode.buttons]]
+    name = "Patch"
+    url = "/patch/bot"
+
 
 [params]
 env = "production"
@@ -32,27 +75,28 @@ disableSpecial1stPost = false
   apple_touch_icon = "<link / abs url>"
   safari_pinned_tab = "<link / abs url>"
 
-  [params.label]
-  text = "Home"
-  icon = "/apple-touch-icon.png"
-  iconHeight = 35
 
   [params.profileMode]
   enabled = false
-  title = "Enlixe Web | Profile"
+  title = "Enlixe"
+  imageUrl = "#"
+  imageTitle = "Images"
 
     [[params.profileMode.buttons]]
-    name = "Posts"
-    url = "posts"
+    name = "Archives"
+    url = "archives"
 
     [[params.profileMode.buttons]]
     name = "Tags"
     url = "tags"
 
+
   [params.homeInfoParams]
   Title = "Hi there 👋"
   Content = "Welcome to my blog"
 
+
+  # social icons
   [[params.socialIcons]]
   name = "twitter"
   url = "https://twitter.com/EnlixeId/"
@@ -61,5 +105,12 @@ disableSpecial1stPost = false
   name = "github"
   url = "https://github.com/Enlixe/"
 
-[params.analytics.google]
-SiteVerificationTag = "XYZabc"
+
+
+[taxonomies]
+category = "categories"
+tag = "tags"
+series = "series"
+
+# [params.analytics.google]
+# SiteVerificationTag = "XYZabc"
