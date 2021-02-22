@@ -3,6 +3,8 @@ title: Enlixe Web
 paginate: 5
 theme: PaperMod
 
+disqusShortname: Enlixe
+
 enableRobotsTXT: true
 buildDrafts: false
 buildFuture: false
@@ -104,9 +106,9 @@ menu:
           weight: 20
         - identifier: posts
           name: Posts
-          url: /posts/
+          url: /p/
           weight: 30
         - identifier: patch
           name: Patch
-          url: /patch/
+          url: /p/patch/
           weight: 40
