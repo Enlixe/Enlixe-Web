@@ -2,7 +2,7 @@
 title: "Bot V0.0.7-Alpha "
 date: 2020-11-25T17:00:00+07:00
 # weight: 1
-aliases: ["/discord"]
+# aliases: ["/discord"]
 tags: ["Bot", "Patch"]
 author: "Enlixe"
 # author: ["Me", "You"] # multiple authors
