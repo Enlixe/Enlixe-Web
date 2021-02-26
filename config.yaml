@@ -110,5 +110,5 @@ menu:
           weight: 30
         - identifier: patch
           name: Patch
-          url: /post/patch/
+          url: /post/patchs/
           weight: 40
