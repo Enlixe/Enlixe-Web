@@ -21,4 +21,5 @@ comments: false
 description: "-"
 ---
 
-Welcome to enlixe web the web is on development ! See on patch note for the update
+Welcome to enlixe web. Here where i post patch note or someting i want post :). \
+This web is on development ! See on patch note for the update

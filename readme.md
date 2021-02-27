@@ -1,4 +1,4 @@
-# Enlixe-Web <sup><sup><sub>v0.0.3.5-Alpha (Dark Mode)</sub></sup></sup>
+# Enlixe-Web <sup><sup><sub>v0.1.0-Alpha (Dark Mode)</sub></sup></sup>
 
 A simple, clean, flexible.
 
@@ -25,7 +25,7 @@ Demo: https://enlixe-web.onrender.com/
 ## Install
 
 ```bash
-None Until I Decided To Share :)
+None
 ```
 
 ## Dark Mode
