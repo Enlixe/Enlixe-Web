@@ -19,4 +19,6 @@ cover:
     relative: false
 comments: false
 ---
-Added Music
+
+Started patch note. \
+Fix some bugs.

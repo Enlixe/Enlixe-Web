@@ -20,6 +20,8 @@ cover:
 comments: true
 ---
 
+I made a huge update in this patch.
+
 ### Changes :
 
 - Fix paginate not showing
@@ -27,4 +29,5 @@ comments: true
 - Merge page `/patchs` to `/post/patchs`
 - Added **DISQUS** comments
 - Fix some bugs
+- Updated all and cleaned code
 - Added some <3 in footer
